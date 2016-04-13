@@ -1,2 +1,2 @@
-# learn-js
 # Gorilla
+Q&A service

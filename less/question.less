@@ -1,0 +1,25 @@
+.post-editor {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wmd-input {
+  height: 220px;
+  padding: 10px;
+}
+.answer-area {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+.answer-text {
+  font-style: italic;
+  &::before, &::after {
+    content: '"';
+  }
+}
+.answer-user {
+  align-self: flex-end;
+  font-weight: bold;
+}
